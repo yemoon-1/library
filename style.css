@@ -8,8 +8,8 @@ html, body {
 }
 
 .bookshelf {
-  /* 책꽂이 배경 이미지 (실제 경로로 변경) */
-  background: url('img/shelf-background.jpg') no-repeat center center;
+  background: url('https://res.cloudinary.com/dnxwucl6z/image/upload/v1754131644/8fb874a6129e070a83fc5b4123c92f65_cdvce1.jpg')
+              no-repeat center center;
   background-size: cover;
   width: 100%;
   min-height: 100vh;
