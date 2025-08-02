@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+
+.bookshelf {
+  /* 책꽂이 배경 이미지 (실제 경로로 변경) */
+  background: url('img/shelf-background.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.shelf {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  overflow-x: auto;
+}
+
+.shelf li {
+  margin-right: 16px;
+}
+
+.shelf img {
+  height: 200px;
+  object-fit: contain;
+  transform-origin: bottom center;
+  transform: rotate(-1deg);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  loading: lazy;
+}
